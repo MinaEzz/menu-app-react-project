@@ -1,0 +1,28 @@
+/* start title */
+.section-header h1{
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    -moz-width: fit-content;
+    width: fit-content;
+    margin: auto !important;
+}
+.section-header h1::after{
+    content: "";
+    width: 90%;
+    height: 4px;
+    background-color: var(--orange-color);
+    display: block;
+    margin: .5rem auto 0 auto !important;
+}
+/* end title */
+/* start pagination */
+.section-header .pagination li{
+    width: 90px !important;
+}
+.section-header .pagination li button{
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 1rem;
+    box-shadow: 0 0 5px var(--orange-color);
+}
+/* end pagination */

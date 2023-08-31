@@ -1,0 +1,27 @@
+.logo{
+    color: var(--orange-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.search-btn{
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    background-color: transparent;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}.search-box{
+    border: none !important;
+    outline: none !important;
+}
+.search-box:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: 0 0 5px var(--orange-color) !important;
+}

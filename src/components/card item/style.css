@@ -1,0 +1,21 @@
+/* start card */
+.card{
+    text-transform: capitalize;
+    background-color: transparent !important;
+    border: 2px solid var(--orange-color) !important;
+}
+.card-img{
+    width: 100%;
+}
+.card-body{
+    padding: 24px !important;
+}
+.card-title h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 1rem;
+    text-align: justify;
+}
+/* end card */
